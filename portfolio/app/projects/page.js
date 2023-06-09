@@ -62,14 +62,11 @@ const projects = [
 const ProjectsPage = () => {
     return (
         <div className="container mx-auto grid h-screen place-items-center">
-            <div className="grid h-screen flex flex-start">
-                <h1 className="text-7xl from-zinc-700 font-bold text-center lg:text-5xl m-0 flex-start">
-                    <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                        Projects
-                    </span>
-                </h1>
-                <p className="text-center">scroll down to see projects</p>
-            </div>
+            <h1 className="text-7xl from-zinc-700 font-bold text-center lg:text-5xl m-0 flex-start">
+                <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                    Projects
+                </span>
+            </h1>
 
             <div className="bg-slate-50 w-4/5	 ">
                 <ul className="lg:grid lg:grid-cols-3 lg:gap-6">
